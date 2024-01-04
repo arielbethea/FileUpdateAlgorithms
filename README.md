@@ -21,7 +21,7 @@ Open the file that contains the allow list: <br/>
 <img src="https://i.imgur.com/7hTcPQj.png" height="80%" width="80%" alt="File Update Algorithm Steps"/>
 <p align="center"> 
 
-<p>I opened the text file using the import_file variable, the with keyword, and the open() function with the "r" parameter for read permissions.
+<p>I opened the text file using the <b>import_file</b> variable, the <b>with</b> keyword, and the <b>open()</b> function with the <b>"r"</b> parameter for read permissions.
 </p>
 
 <br />
