@@ -53,7 +53,7 @@ Iterate through the remove list:  <br/>
 <img src="https://i.imgur.com/evTepph.png" height="80%" width="80%" alt="File Update Algorithm Steps"/>
 <p align="center"> 
 
-<p>I removed the elements of <b>remove_list</b> from the ip_addresses list</b>. This required both an iterative statement and a conditional statement. First, I built the iterative statement by naming the loop variable <b>element</b>, looping through <b>ip_addresses</b>, and displaying each<b> element</b>. 
+<p>I removed the elements of <b>remove_list</b> from the <b>ip_addresses list</b>. This required both an iterative statement and a conditional statement. First, I built the iterative statement by naming the <b>loop</b> variable element</b>, looping through <b>ip_addresses</b>, and displaying each element. 
 </p>  
 <br />
 
