@@ -73,7 +73,7 @@ Update the file with the revised list of IP addresses:  <br/>
 <img src="https://i.imgur.com/YRvxa6I.png" height="80%" width="80%" alt="File Update Algorithm Steps"/>
 <p align="center"> 
 
-<p>Finally, I updated the original file that was used to create the <b>ip_addresses</b> list. A line of code containing the <b>.join()</b> method was added to the code so that the file could be updated. This was necessary because <b>ip_addresses</b> must be in string format when used inside the <b>with statement to rewrite the file.
+<p>Finally, I updated the original file that was used to create the <b>ip_addresses</b> list. A line of code containing the <b>.join()</b> method was added to the code so that the file could be updated. This was necessary because <b>ip_addresses</b> must be in string format when used inside the <b>with</b> statement to rewrite the file.
 </p>  
 <p>The <b>.join()</b> method takes in an iterable (such as a list) and concatenates every element of it into a string. The <b>.join()</b> method is applied to a string consisting of the character that will be used to separate every element in the iterable once its converted into a string. The method is applied to the string " ", which contains just a space character. The argument of the <b>.join()</b> method is <b>ip_addresses</b>, which was the iterable I wanted to convert. <b>ip_addresses</b> was converted from a list back into a string with a space between each element and the next.
 </p>  
@@ -85,7 +85,7 @@ Update the file with the revised list of IP addresses:  <br/>
 <br />
 <p align="center"> 
 Summary:  <br/>
-<p>Python offers various functions and syntax for importing and parsing text files. The  <b>with</b> statement allowed me to efficiently open and close the allow list and remove list files. The  <b>open()</b> function imported the allow list file by using the file name and  <b>“r”</b> to indicate the intent to read the file. The  <b>.read()</b> method reads in a file, while the  <b>.write()</b> method appends or writes to a file. The  <b>for</b> loop iterated over the allow list, while the  <b>if</b> statement checked if any of the values from the remove list were in the allow list and removed them from the allow list. The  <b>.split()</b> method converted the string to a list to allow Python to compare the contents of the text file against elements of a list.
+<p>Python offers various functions and syntax for importing and parsing text files. The <b>with</b> statement allowed me to efficiently open and close the allow list and remove list files. The <b>open()</b> function imported the allow list file by using the file name and  <b>“r”</b> to indicate the intent to read the file. The  <b>.read()</b> method reads in a file, while the  <b>.write()</b> method appends or writes to a file. The <b>for</b> loop iterated over the allow list, while the <b>if</b> statement checked if any of the values from the remove list were in the allow list and removed them from the allow list. The  <b>.split()</b> method converted the string to a list to allow Python to compare the contents of the text file against elements of a list.
 </p>
 
 <br />
